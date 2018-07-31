@@ -32,7 +32,7 @@ I want it to start up automatically ?
 - Right click / New / Shortcut
 - Browse to the exe (for example, if you use the debug build: C:\path\to\the\repo\WeeklyActivities\bin\Debug\WeeklyActivities.exe)
 - Press Finish
-- Reboot
+- Reboot or run it manually (double click on the Shortcut)
 
 # Copyright and license
 Code released under the MIT license.
