@@ -16,13 +16,13 @@ The only thing you have to do is to let it run. You can minimize it and forget i
 
 # FAQ
 
-I want to run it ?
+I want to run it?
 
 - `git clone https://github.com/doxakis/WeeklyActivities.git`
 - Open WeeklyActivities.sln with Visual Studio (2017+)
 - Start the application (ctrl + F5)
 
-I want it to start up automatically ?
+I want it to start up automatically?
 
 - `git clone https://github.com/doxakis/WeeklyActivities.git`
 - Open WeeklyActivities.sln with Visual Studio (2017+)
@@ -33,6 +33,10 @@ I want it to start up automatically ?
 - Browse to the exe (for example, if you use the debug build: C:\path\to\the\repo\WeeklyActivities\bin\Debug\WeeklyActivities.exe)
 - Press Finish
 - Reboot or run it manually (double click on the Shortcut)
+
+Can I change the inactivity delay?
+
+Just open the file App.config and change the value of the key InactivityDelayInMinutes.
 
 # Copyright and license
 Code released under the MIT license.
