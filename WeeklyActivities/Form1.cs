@@ -26,7 +26,7 @@ namespace WeeklyActivities
 
             InitializeComponent();
 
-            GoToWeek(DateTime.Now);
+            GoToWeek(DateTime.Now.AddDays(1));
 
             var t = new Thread(new ThreadStart(Run));
             t.IsBackground = true;
